@@ -7,6 +7,14 @@ const userSchema = require("./schema")
 
 const app = express();
 
+
+
+
+
+
+
+
+
 app.post('/rohitha',async(req,res)=>{
     try{
        const {name,email,password} = req.body;
